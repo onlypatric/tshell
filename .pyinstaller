@@ -1,0 +1,1 @@
+pyinstaller -F __main__.py --console --collect-data sv_ttk --add-data=$HOME"\AppData\Local\Programs\Python\Python311\Lib\site-packages\sv_ttk;sv_ttk" --onefile --name="app"
